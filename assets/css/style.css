@@ -28,15 +28,16 @@ body {
     border-radius: 5px;
 }
 
-.button {
+.startbutton {
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
 }
 
 .btn {
     color: darkslateblue;
-    padding: 10px;
     background: lightskyblue;
+    padding: 20px 150px;
+    font-size: 24px;
 }
 
 .btn:hover {
