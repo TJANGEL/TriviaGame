@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-    background-image: url(assets/images/background-2.jpeg);
+    background-image: url("/assets/images/background-1.jpg");
     text-align: center;
 }
 
@@ -79,9 +79,11 @@ h2{
 }
 
 /* answers */
+/* final scores */
 h3{
     font-size: 25px;
     margin-bottom: 10px;
+    color: rgba(243, 92, 36, 0.856);
 }
 
 .footer {

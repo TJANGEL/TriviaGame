@@ -1,5 +1,5 @@
 var panel = $('#quiz-area');
-var countStartNumber = 30;
+var countStartNumber = 20;
 
 
 $(document).on('click', '#start-over', function(e) {
@@ -11,7 +11,7 @@ $(document).on('click', '.answer-button', function(e) {
 });
 
 $(document).on('click', '#start', function(e) {
-  $('#main-container').prepend('<h2>Time Remaining: <span id="counter-number">30</span> Seconds</h2>');
+  $('#main-container').prepend('<h2>Time Remaining: <span id="counter-number">20</span> Seconds</h2>');
   game.loadQuestion();
 });
 
@@ -85,7 +85,7 @@ var game = {
     }
   },
   loadQuestion: function(){
-    timer = setInterval(game.countdown, 1000);
+    timer = setInterval(game.countdown, 2000);
     panel.html('<h2>' + questions[this.currentQuestion].question + '</h2>' );
     for (var i = 0; i<questions[this.currentQuestion].answers.length; i++){
       panel.append('<button class="answer-button" id="button"' + 'data-name="' + questions[this.currentQuestion].answers[i] + '">' + questions[this.currentQuestion].answers[i]+ '</button>');
@@ -106,9 +106,9 @@ var game = {
     panel.append('<img src="' + questions[this.currentQuestion].image + '" />');
 
     if (game.currentQuestion === questions.length - 1){
-      setTimeout(game.results, 3 * 1000);
+      setTimeout(game.results, 2000);
     } else {
-      setTimeout(game.nextQuestion, 3 * 1000);
+      setTimeout(game.nextQuestion, 2000);
     }
   },
   results: function() {
@@ -138,9 +138,9 @@ var game = {
     panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
 
     if (game.currentQuestion === questions.length - 1){
-      setTimeout(game.results, 3 * 1000);
+      setTimeout(game.results, 2000);
     } else {
-      setTimeout(game.nextQuestion, 3 * 1000);
+      setTimeout(game.nextQuestion, 2000);
     }
   },
   answeredCorrectly: function(){
@@ -150,9 +150,9 @@ var game = {
     panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
 
     if (game.currentQuestion === questions.length - 1){
-      setTimeout(game.results, 3 * 1000);
+      setTimeout(game.results, 2000);
     } else {
-      setTimeout(game.nextQuestion, 3 * 1000);
+      setTimeout(game.nextQuestion, 2000);
     }
   },
   reset: function(){
