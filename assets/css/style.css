@@ -10,7 +10,7 @@ body{
 
 #main-container{
     margin: 4% auto;
-    background-color: darkcyan;
+    background-color: slategray;
     width:1000px;
     height: 100%;
     box-sizing: border-box;
@@ -37,15 +37,14 @@ button{
     margin-bottom: 10px;
     cursor: pointer;
     background:transparent;
-    font-size: 42px;
-    background: darkcyan;
+    font-size: 40px;
 }
 
 #start{
     margin-top: 6%;
     font-family: 'Alfa Slab One', cursive;
     color: white;
-    background: black;
+    background: rgb(37, 18, 10);
     border: 10px dotted rgb(228, 173, 22);
     border-radius: 5px;
 }
@@ -59,9 +58,10 @@ button{
 
 /* answers */
 button:hover {
-    border:5px solid darkgrey;
-    color: lightskyblue;
-    background: white;
+    border:10px dotted rgb(228, 173, 22);
+    color: white;
+    background: rgb(37, 18, 10);
+    border-radius: 5px;
 }
 
 img{
