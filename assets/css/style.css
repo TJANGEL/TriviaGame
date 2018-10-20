@@ -1,55 +1,96 @@
-body {
-    background: lightgrey;
-    background: url("/assets/images/background-1.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+html, body{
+    height:100%;
 }
 
-.jumbotron {
-    background: darkslateblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 10px lightskyblue;
-}
-
-.display-4 {
-    font-size: 80px;
+body{
+    background-image: url(assets/images/background-2.jpeg);
     text-align: center;
-    font-family: 'Alfa Slab One', cursive;
-    color: lightskyblue;
 }
 
-.main-container {
-    margin: 70px 250px;
-    padding: 250px 150px;
-    background: darkslateblue;
+#main-container{
+    margin: 4% auto;
+    background-color: darkcyan;
+    width:1000px;
+    height: 95%;
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
-.startbutton {
-    text-align: center;
+#container{
+    position: relative;
+    top:15%;
+}
+
+
+#title {
+    height: 300px;
+    margin-bottom: 0px;
+}
+   
+button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;
+    background: darkcyan;
+}
+
+#start{
+    margin-top: 10%;
     font-family: 'Alfa Slab One', cursive;
+    color: rgba(243, 92, 36, 0.856);
+    background: darkgray;
+    border-radius: 5px;
 }
 
-.btn {
-    color: darkslateblue;
-    background: lightskyblue;
-    padding: 20px 150px;
-    font-size: 24px;
+#start:hover {
+    border:5px solid darkgrey;
+    color: darkcyan;
+    background: black;
+    border-radius: 5px;
 }
 
-.btn:hover {
-    color:lightskyblue;
+/* answers */
+button:hover {
+    border:5px solid darkgrey;
+    color: lightskyblue;
     background: white;
+}
+
+img{
+    height:300px;
+}
+
+/* time remaining */
+/* question prompt */
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    color: rgba(243, 92, 36, 0.856);
+    font-family: "Alfa Slab One", cursive;
+}
+
+/* answers */
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .footer {
     text-align: center;
     padding-top: 30px;
-    background: darkslateblue;
-    border-top: solid 10px lightskyblue;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(243, 92, 36, 0.856);
+    background: darkcyan;
+    border-top: solid 10px rgba(243, 92, 36, 0.856);
+    font-size: 24px;
+    font-family: 'Bangers';
     margin-top: 140px;
 }

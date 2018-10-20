@@ -1,57 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Totally Trivial Trivia Game</title>
-    <!-- boostrap: -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <!-- CSS: -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <!-- JavaSript: -->
-    <script src="assets/javascript/app.js"></script>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Fugaz+One|Gochi+Hand|Luckiest+Guy|Permanent+Marker|Righteous|Rock+Salt"
-        rel="stylesheet">
+  <title>Totally Trivial Trivia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Fugaz+One|Gochi+Hand|Luckiest+Guy|Permanent+Marker|Righteous|Rock+Salt"
+rel="stylesheet">
 </head>
-
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Totally Trivial Trivia</h1>
-        </div>
+  <div id="main-container">
+    <img id="title" src="assets/images/trivia-lights.gif" width="100%">
+    <div id="container">
+      <div id="quiz-area">
+        <button id="start">START</button>
+      </div>
     </div>
-
-    <div class="main-container">
-        <div class="startbutton">
-            <button type="button" class="btn btn-info">START</button>
-        </div>
-    <!-- <div class="answerbuttons">
-            <button id="btn1"><span id="choice1"></span></button>
-            <button id="btn2"><span id="choice2"></span></button>
-            <button id="btn3"><span id="choice3"></span></button>
-            <button id="btn4"><span id="choice4"></span></button>
-        </div> -->
-        
-    </div>
-
-    <footer class="footer">
-        <div class="container">
-            <span class="text-muted">THOMAS ANGELONI &copy;</span>
-        </div>
-    </footer>
-
+  </div>
+  <footer class="footer">
+        <span class="text-muted">THOMAS ANGELONI &copy;</span>
+</footer>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
-
 </html>
