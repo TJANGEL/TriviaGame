@@ -25,19 +25,19 @@ var questions = [{
   question: "In what city would you find the Wizard of Oz?",
   answers: ["San Francisco", "The Emerald City", "New Orleans", "Dallas"],
   correctAnswer: "The Emerald City",
-  image:"/assets/images/wizard-of-oz.gif"
+  image:"assets/images/wizardofoz.gif"
 }, {
   question: "What was the first publicly traded U.S. company to reach a $1 trillion market cap?",
   answers: ["Grapefruit", "Orange", "Apple", "Peach"],
   correctAnswer: "Apple",
   image:"assets/images/apple.gif"
 }, {
-  question: "What Marvel character’s real name is Carol Danvers?",
+  question: "What Marvel characters real name is Carol Danvers?",
   answers: ["Captain Marvel", "Captain America", "She Marvel", "Oprah"],
   correctAnswer: "Captain Marvel",
   image:"assets/images/captain-marvel.gif"
 }, {
-  question: "On the hit show Seinfeld what was Kramer’s first name?",
+  question: "On the hit show Seinfeld what was Kramers first name?",
   answers: ["Jerry", "Leonard", "Costo", "Cosmo"],
   correctAnswer: "Cosmo",
   image:"assets/images/cosmo-kramer.gif"

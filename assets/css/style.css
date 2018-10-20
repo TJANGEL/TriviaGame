@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-    background-image: url("/assets/images/background-1.jpg");
+    background-image: url("http://i63.tinypic.com/2cood9w.jpg");
     text-align: center;
 }
 
@@ -12,20 +12,19 @@ body{
     margin: 4% auto;
     background-color: darkcyan;
     width:1000px;
-    height: 95%;
+    height: 100%;
     box-sizing: border-box;
     border-radius: 5px;
 }
 
 #container{
     position: relative;
-    top:15%;
+    top: 6%;
 }
 
 
 #title {
-    height: 300px;
-    margin-bottom: 0px;
+    height: 400px;
 }
    
 button{
@@ -43,17 +42,18 @@ button{
 }
 
 #start{
-    margin-top: 10%;
+    margin-top: 6%;
     font-family: 'Alfa Slab One', cursive;
-    color: rgba(243, 92, 36, 0.856);
-    background: darkgray;
+    color: white;
+    background: black;
+    border: 10px dotted rgb(228, 173, 22);
     border-radius: 5px;
 }
 
 #start:hover {
-    border:5px solid darkgrey;
-    color: darkcyan;
-    background: black;
+    border:10px dotted rgb(228, 173, 22);
+    color: black;
+    background: white;
     border-radius: 5px;
 }
 
