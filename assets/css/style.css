@@ -36,6 +36,7 @@ button{
     cursor: pointer;
     background:transparent;
     font-size: 40px;
+    color: rgb(37, 18, 10);
 }
 
 #start{
