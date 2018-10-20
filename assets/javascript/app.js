@@ -11,7 +11,7 @@ $(document).on('click', '.answer-button', function(e) {
 });
 
 $(document).on('click', '#start', function(e) {
-  $('#main-container').prepend('<h2>Time Remaining: <span id="counter-number">20</span> Seconds</h2>');
+  $('#container').prepend('<h2>Time Remaining: <span id="counter-number">20</span> Seconds</h2>');
   game.loadQuestion();
 });
 
@@ -68,7 +68,7 @@ var questions = [{
   image:"assets/images/humerous.gif"
 }];
 
-// main functions:
+
 var game = {
   questions:questions,
   currentQuestion:0,
@@ -101,7 +101,7 @@ var game = {
     clearInterval(timer);
     $('#counter-number').html(game.counter);
 
-    panel.html('<h2>Out of Time!</h2>');
+    panel.html('<h2>Times Up!</h2>');
     panel.append('<h3>The Correct Answer Was: ' + questions[this.currentQuestion].correctAnswer);
     panel.append('<img src="' + questions[this.currentQuestion].image + '" />');
 
@@ -114,7 +114,7 @@ var game = {
   results: function() {
     clearInterval(timer);
 
-    panel.html('<h2>All Done, Heres How You Did!</h2>');
+    panel.html('<h2>GAME OVER!</h2>');
     $('#counter-number').html(game.counter);
     panel.append('<h3>Correct Answers: ' + game.correct + '</h3>');
     panel.append('<h3>Incorrect Answers: ' + game.incorrect + '</h3>');
