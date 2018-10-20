@@ -71,7 +71,7 @@ h2{
     font-size: 35px;
     margin-bottom: 15px;
     padding-top: 10px;
-    color: rgba(243, 92, 36, 0.856);
+    color: rgb(37, 18, 10);
     font-family: "Alfa Slab One", cursive;
 }
 
@@ -80,15 +80,15 @@ h2{
 h3{
     font-size: 25px;
     margin-bottom: 10px;
-    color: rgba(243, 92, 36, 0.856);
+    color: rgb(37, 18, 10);
 }
 
 .footer {
     text-align: center;
     padding-top: 30px;
-    color: rgba(243, 92, 36, 0.856);
+    color: slategray;
     background: rgb(37, 18, 10);
-    border-top: solid 10px rgba(243, 92, 36, 0.856);
+    border-top: solid 10px slategray;
     font-size: 24px;
     font-family: 'Bangers';
     margin-top: 140px;
