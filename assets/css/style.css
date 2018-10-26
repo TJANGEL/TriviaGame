@@ -43,7 +43,7 @@ button{
 #start{
     margin-top: 6%;
     font-family: 'Alfa Slab One', cursive;
-    color: white;
+    color: cornsilk;
     background: rgb(37, 18, 10);
     border: 10px dotted rgb(228, 173, 22);
     border-radius: 5px;
@@ -52,14 +52,14 @@ button{
 #start:hover {
     border:10px dotted rgb(228, 173, 22);
     color: black;
-    background: white;
+    background: cornsilk;
     border-radius: 5px;
 }
 
 /* answers */
 button:hover {
     border:10px dotted rgb(228, 173, 22);
-    color: white;
+    color: cornsilk;
     background: rgb(37, 18, 10);
     border-radius: 5px;
 }
